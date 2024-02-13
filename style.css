@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Call to Action Styles */
+  .cta {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  button {
+    background: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Slide-in Form Styles */
+  #slide-in-form {
+    display: none;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #slide-in-form form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #slide-in-form input {
+    width: 45%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #slide-in-form button {
+    width: 20%;
+    padding: 10px;
+    margin-left: 5px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
